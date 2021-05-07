@@ -10,6 +10,7 @@ import android.widget.Button;
 public class ListOrderAct extends AppCompatActivity {
 
     private Button sidebar_btn;
+    private Button Plus_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +24,20 @@ public class ListOrderAct extends AppCompatActivity {
                 openSidebarAct();
             }
         });
+        Plus_btn = (Button) findViewById(R.id.button22);
+        Plus_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNewAdAct();
+            }
+        });
     }
     public void openSidebarAct(){
         Intent i = new Intent(this, SidebarAct.class);
+        startActivity(i);
+    }
+    public void openNewAdAct(){
+        Intent i = new Intent(this, NewAd.class);
         startActivity(i);
     }
 }

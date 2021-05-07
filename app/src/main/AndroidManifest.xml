@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SenseiService1">
-        <activity android:name=".TestAct"></activity>
+        <activity android:name=".NewAd"></activity>
+        <activity android:name=".TestAct" />
         <activity android:name=".SidebarAct" />
         <activity android:name=".DrawAct" />
         <activity
