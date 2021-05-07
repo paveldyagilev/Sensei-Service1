@@ -231,7 +231,17 @@
         android:backgroundTint="#00FFFFFF"
         android:outlineAmbientShadowColor="#00FFFFFF"
         android:outlineSpotShadowColor="#00FFFFFF"
-        android:textColor="#000000"/>
+        android:textColor="#2C000000" />
+
+    <ImageView
+        android:id="@+id/sidebarShadow_IV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/shadow_gradient" />
 
     <ImageView
         android:id="@+id/Sidebar_IV"
