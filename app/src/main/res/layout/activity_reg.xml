@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegAct"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="640dp"
+        app:srcCompat="@drawable/senseiicon1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="586dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Sensei\nService"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="521dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Регистрация"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/NameImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="449dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <EditText
+        android:id="@+id/NameET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="446dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif"
+        android:textColorHint="#575757"
+        android:textColor="#575757"
+        android:backgroundTint="#00FFFFFF"
+        android:hint="Имя"/>
+
+    <ImageView
+        android:id="@+id/NameIconImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="439dp"
+        app:srcCompat="@drawable/chel_1" />
+
+    <ImageView
+        android:id="@+id/EmailNumberImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="390dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <EditText
+        android:id="@+id/EmailNumberET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="387dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif"
+        android:textColorHint="#575757"
+        android:textColor="#575757"
+        android:backgroundTint="#00FFFFFF"
+        android:hint="Номер телефона или эл. почта"/>
+
+    <ImageView
+        android:id="@+id/EmailNumberIconImageView"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="398dp"
+        app:srcCompat="@drawable/emailnumber_1" />
+
+    <ImageView
+        android:id="@+id/PasswordImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="331dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <ImageView
+        android:id="@+id/PasswordIconImageView"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="339dp"
+        app:srcCompat="@drawable/fe_key" />
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:textColorHint="#575757"
+        android:textColor="#575757"
+        android:backgroundTint="#00FFFFFF"
+        android:hint="Пароль"/>
+
+    <ImageView
+        android:id="@+id/Password1ImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="272dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <ImageView
+        android:id="@+id/Password1IconImageView"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="279dp"
+        app:srcCompat="@drawable/fe_key" />
+
+    <EditText
+        android:id="@+id/Password1ET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="269dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:textColorHint="#575757"
+        android:textColor="#575757"
+        android:backgroundTint="#00FFFFFF"
+        android:hint="Повторите пароль"/>
+
+    <TextView
+        android:id="@+id/textViewOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="237dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="или"
+        android:textColor="#595757"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/UnderORtxtv"
+        android:layout_width="131dp"
+        android:layout_height="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="224dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="175dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="войти"
+        android:textAllCaps="false"
+        android:textColor="#2878FF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/UnderORtxtv1"
+        android:layout_width="131dp"
+        android:layout_height="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="165dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="46dp"
+        android:text="Зарегистрироваться"
+        android:textSize="24dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="normal"
+        android:backgroundTint="#FF002A"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:onClick="onClickReg"/>
+
+</RelativeLayout>

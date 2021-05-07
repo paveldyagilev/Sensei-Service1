@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "43658349878",
+    "firebase_url": "https://sensei-service1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sensei-service1",
+    "storage_bucket": "sensei-service1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43658349878:android:93e313899e1e3f73a77797",
+        "android_client_info": {
+          "package_name": "com.example.senseiservice1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43658349878-43k55tq7do0t0n49ic9gic1abaepuaoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeOD1DFIYjtnSkRLhx6UQJCHVIoeCNUXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43658349878-43k55tq7do0t0n49ic9gic1abaepuaoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

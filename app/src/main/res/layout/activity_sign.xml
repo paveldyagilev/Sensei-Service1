@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignAct"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="640dp"
+        app:srcCompat="@drawable/senseiicon1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="584dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Sensei\nService"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="521dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Авторизация"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/EmailNumberImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="449dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <ImageView
+        android:id="@+id/EmailNumberIconImageView"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="457dp"
+        app:srcCompat="@drawable/emailnumber_1" />
+
+    <EditText
+        android:id="@+id/EmailNumberET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="446dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Номер телефона или эл. почта"
+        android:inputType="textPersonName"
+        android:textColor="#575757"
+        android:textColorHint="#575757" />
+
+    <ImageView
+        android:id="@+id/PasswordImageView"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="390dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <ImageView
+        android:id="@+id/PasswordIconImageView"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginBottom="398dp"
+        app:srcCompat="@drawable/fe_key" />
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_width="327dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="387dp"
+        android:backgroundTint="#00FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textColor="#575757"
+        android:textColorHint="#575757" />
+
+    <TextView
+        android:id="@+id/textViewOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="355dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="или"
+        android:textColor="#595757"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/UnderORtxtv"
+        android:layout_width="131dp"
+        android:layout_height="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="342dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="289dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="регистрация"
+        android:textAllCaps="false"
+        android:textColor="#2878FF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/UnderORtxtv1"
+        android:layout_width="131dp"
+        android:layout_height="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="283dp"
+        app:srcCompat="@drawable/regtextbg1" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#FF002A"
+        android:fontFamily="sans-serif"
+        android:text="Войти"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="normal"
+        android:onClick="onClickSignIn"/>
+
+</RelativeLayout>
